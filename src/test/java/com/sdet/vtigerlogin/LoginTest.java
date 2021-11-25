@@ -19,6 +19,8 @@ public class LoginTest {
 		WebDriverManager.chromedriver().setup();
 		Reporter.log("launching chrome browser",true);
 		
+		
+		
 		WebDriver driver=new ChromeDriver();
 		Reporter.log("Maximizing the window",true);
 		driver.manage().window().maximize();
